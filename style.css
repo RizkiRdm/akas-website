@@ -72,12 +72,13 @@ h5 {
 }
 
 .hero {
-  background-image: url("img/contoh.jpg");
+  background-image: url("img/background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
   z-index: 2;
+  font-weight: 700;
 }
 
 p {
@@ -118,8 +119,8 @@ p {
 
 #footer-area {
   padding: 90px 0 60px 0;
-  background-color: #1b2430;
-  color: white;
+  background-color: silver;
+  color: var(--button);
 }
 
 .footer-social {
@@ -141,13 +142,13 @@ p {
 
 .link-area a {
   text-transform: capitalize;
-  color: #ddd;
+  color: var(--button);
   font-family: "poppins", sans-serif;
 }
 
 .link-area li a {
   margin-right: 10px;
-  color: #ddd;
+  color: var(--button);
 }
 
 .link-area {
@@ -274,6 +275,10 @@ p {
 
 a {
   text-decoration: none;
+}
+
+#team {
+  background-color: whitesmoke;
 }
 
 /*Mobile design*/
