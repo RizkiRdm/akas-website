@@ -233,9 +233,7 @@ p {
 }
 
 .team-member img {
-  width: 125px;
-  height: 125px;
-  border-radius: 100px;
+  width: 50%;
 }
 
 .team-member {
