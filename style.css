@@ -31,6 +31,7 @@ nav {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   background-color: var(--secondary);
+  color: white;
 }
 
 .navbar .navbar-brand {
@@ -38,7 +39,7 @@ nav {
   font-weight: bold;
 }
 .navbar-brand:hover {
-  color: white;
+  color: var(--button);
   transition: all 0.3s ease;
 }
 .navbar .nav-link {
