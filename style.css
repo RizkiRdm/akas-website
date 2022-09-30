@@ -129,6 +129,7 @@ p {
 }
 
 .single-footer {
+  width: 100%;
   font-weight: 500;
   margin-bottom: 25px;
   color: #fafafa;
@@ -294,7 +295,7 @@ a {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .button-fitur {
     width: 100%;
   }
